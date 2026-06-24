@@ -1,16 +1,45 @@
-# bibimysalon_klmpk6
+# Salon Reservation App
 
-A new Flutter project.
+Mobile UI prototype for booking salon appointments, built with Flutter as a group project for Mobile Programming course.
+
+## Overview
+
+A multi-screen mobile application prototype that lets users browse salon services, pick available time slots, and manage bookings through an intuitive interface.
+
+## Screens
+
+- **Login / Sign Up** — authentication flow
+- **Home** — service catalog and featured offerings
+- **Booking** — calendar-based time slot selection
+- **Cart** — review selected services before confirming
+- **Profile** — user account management
+
+## Tech Stack
+
+| Layer | Technology |
+|-------|-----------|
+| Framework | Flutter |
+| Language | Dart |
+| UI | Material Design |
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+```bash
+# Clone
+git clone https://github.com/mikado1106/salon-reservation-app.git
+cd salon-reservation-app
 
-A few resources to get you started if this is your first Flutter project:
+# Install dependencies
+flutter pub get
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Run
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Team
+
+Built by a team of 3 as part of the Mobile Programming course at Universitas Tarumanagara (2024).
+
+## License
+
+Academic project.
